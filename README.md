@@ -4,6 +4,12 @@ A fully responsive e-commerce product listing page built with React and plain CS
 
 ---
 
+## 🌐 Live Demo
+
+🔗 **View Live Site:** [https://appscriprohitraparthi.netlify.app/](https://appscriprohitraparthi.netlify.app/)
+
+---
+
 ## Features
 
 - 📱 Fully responsive design (Desktop, Tablet, Mobile)

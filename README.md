@@ -109,7 +109,7 @@ Appscrip-task-RohitRaparthi/
 ---
 
 ## 📸 Screenshots
-![Home Screen](./src/images/homescreen.png)
+![Home Screen](./src/images/homescreen.gif)
 
 ---
 

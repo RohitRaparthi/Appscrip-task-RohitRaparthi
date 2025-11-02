@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# E-Commerce Product Listing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully responsive e-commerce product listing page built with React and plain CSS. Features real-time product filtering, sorting, and a modern UI design.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- 📱 Fully responsive design (Desktop, Tablet, Mobile)
+- 🔍 Product filtering by category
+- 📊 Multiple sorting options (Price, Rating, Newest, Popular)
+- ❤️ Favorites/Wishlist functionality
+- 🎨 Clean UI with expandable/collapsible filters
+- 🌐 Real-time data fetching from FakeStore API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **React** - UI library
+- **Axios** - HTTP client for API calls
+- **CSS3** - Styling with media queries for responsiveness
+- **FakeStore API** - Product data source
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**
+```bash
+git clone 
+cd product-listing-page
+```
 
-### `npm run eject`
+2. **Install dependencies**
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Start the development server**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Open your browser**
+Navigate to `http://localhost:3000`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+- **Filter Products**: Use the sidebar to filter by category, price and rating
+- **Sort Products**: Click the sort dropdown to organize products by price, popularity, or date
+- **Toggle Filters**: Click "HIDE/SHOW FILTER" to expand/collapse the sidebar
+- **Add to Favorites**: Click the heart icon on product cards
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Responsive Breakpoints
 
-### Code Splitting
+- **Desktop**: > 1024px
+- **Tablet**: 768px - 1024px
+- **Mobile**: < 767px
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## API Reference
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project uses the [FakeStore API](https://fakestoreapi.com/)
 
-### Making a Progressive Web App
+**Endpoint**: `https://fakestoreapi.com/products`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📂 Folder Structure
+```
+Appscrip-task-RohitRaparthi/
+│
+├── src/
+│   ├── components/
+│   │   ├── FilterSidebar/
+│   │   │   ├──index.js
+│   │   │   └──index.css
+│   │   ├── Footer/
+│   │   │   ├──index.js
+│   │   │   └──index.css
+│   │   ├── Header/
+│   │   │   ├──index.js
+│   │   │   └──index.css
+│   │   ├── ProductCard/
+│   │   │   ├──index.js
+│   │   │   └──index.css
+│   │   └── ProductGrid/
+│   │       ├──index.js
+│   │       └──index.css
+│   ├── images/
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+│
+└── README.md
+```
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📸 Screenshots
+![Home Screen](./src/images/homescreen.png)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 👨‍💻 Author
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Rohit Raparthi**  
+📧 [rohit.raparthi2003@gmail.com](mailto:rohit.raparthi2003@gmail.com)  
+💼 [LinkedIn](https://www.linkedin.com/in/rohit-raparthi/) / [GitHub](https://github.com/RohitRaparthi/)
